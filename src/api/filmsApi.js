@@ -6,7 +6,6 @@ const FILM_BY_ID_API_URL = 'https://run.mocky.io/v3/2f81362d-d6c1-40ef-ae4c-6507
 export const getFilms = async () => {
   try {
     const response = await axios.get(FILMS_API_URL);
-    console.log(response.data)
     return response.data;
   } catch (error) {
     console.error('Error fetching films:', error);
@@ -18,7 +17,6 @@ export const getFilms = async () => {
 export const getFilmbyId = async () => {
     try {
       const response = await axios.get(FILM_BY_ID_API_URL);
-      console.log(response.data)
       return response.data;
     } catch (error) {
       console.error('Error fetching films:', error);
