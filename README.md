@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Streaming App Mock Project
+
+This projects shows the list of films and episodes in the film details page with mock API.
+
+There are still many improvements that can be done in this projects:
+1. not use CRA since CRA is already outdated
+2. Improve on loading experiences
+3. Improve the API mocks
+4. Improve the designs, interactions and layout
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
