@@ -24,7 +24,6 @@ const FilmListPage = () => {
     const goToFilmDetails = (id) => {
         // not using the id here since the mock api does not support but it should be per id
         navigate("/films/"+id)
-
     }
 
     //using same films for each genres

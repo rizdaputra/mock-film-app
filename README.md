@@ -7,6 +7,7 @@ There are still many improvements that can be done in this projects:
 2. Improve on loading experiences
 3. Improve the API mocks
 4. Improve the designs, interactions and layout
+5. Add unit tests
 
 ## Getting Started with Create React App
 

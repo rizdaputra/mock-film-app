@@ -19,16 +19,17 @@ const FilmDetailsPage = () => {
       fetchInitialData();
     }, [])
 
+    //TODO make episodes list as own component
     return <div>
         <a href="/films" className='back-link'>Back to Films List</a>
-        <img src={film.preview} className='film-details-preview-image'/>
+        <img src={film.preview} className='film-details-preview-image' alt={film.title}/>
         <p className='film-title'>{film.title}</p>    
         <p>{film.subtitle}</p>
         <p className='episode-list-heading'>Episodes List: </p>
         {episodes.map((episode) => {
            return <div className='episode-list-wrapper'>
                 <div className='episode-image-wrapper'>
-                    <img src={episode.preview}/>
+                    <img src={episode.preview} alt={episode.title}/>
                 </div>
                 <div>
                     <h4>{episode.title}</h4>

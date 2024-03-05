@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Film from '../Film/Film';
 import './FilmList.css'
 
 export default function FilmList({films, genre, onClick}) {
-
     return (
         <>
             <h2>{genre}</h2>
