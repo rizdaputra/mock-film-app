@@ -1,0 +1,31 @@
+.episode-list-wrapper{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.episode-list-heading{
+    font-size: 20px;
+    margin: 50px 0px 20px;
+    font-weight: 800;
+}
+
+.episode-image-wrapper{
+    margin-right: 30px;
+}
+
+.film-title{
+    font-size: 24px;
+    font-weight: 800;    
+}
+
+.film-details-preview-image{
+    max-width: 100%
+}
+
+.back-link {
+    display:block;
+    margin-bottom: 30px;
+}
+
+

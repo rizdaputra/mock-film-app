@@ -1,0 +1,5 @@
+.film-list-wrapper{
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
